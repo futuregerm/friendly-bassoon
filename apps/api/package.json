@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "private": true,
+  "scripts": {
+    "dev": "cd .. && cd api && python -m uvicorn app.main:app --reload --port 8000",
+    "build": "echo 'python build skipped'",
+    "lint": "python -m compileall app",
+    "test": "echo 'no tests'"
+  }
+}
