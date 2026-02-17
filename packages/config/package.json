@@ -1,0 +1,6 @@
+{
+  "name": "@forgeai/config",
+  "version": "0.0.1",
+  "private": true,
+  "files": ["tailwind-preset.ts", "tsconfig.base.json"]
+}
